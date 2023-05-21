@@ -9,7 +9,7 @@ function App() {
     angle: 50
   })
 
-// handle updates to state
+// handle updates to state - used by onchange 
 function handleChange(event) {
   const {name, value} = event.target
   setColors(prevColors => {
